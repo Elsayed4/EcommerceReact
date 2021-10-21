@@ -1,0 +1,37 @@
+body{
+  background-color: teal !important;
+}
+
+.Counter{
+  max-width: fit-content;
+  margin: 100px auto;
+}
+
+.Counter button{
+  background-color: transparent;
+  color: #fff;
+  border:3px solid #ccc;
+  padding: 10px 50px;
+  margin:  0 20px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.Counter button:hover{
+  background-color: #fff;
+  color: teal;
+  cursor: pointer;
+}
+
+.Counter .txtStatus{
+ color: #fff;
+ text-align: center;
+ font-size: large;
+}
+
+.red{
+  color: red;
+}
+.white{
+  color: white;
+}
