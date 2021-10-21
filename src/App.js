@@ -9,7 +9,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-
+import Product from './Component/Product/Product.jsx'
 const App = () => {
   const [count,setcount] = useState(1);
   const [fun,setfun] = useState('');
@@ -40,7 +40,8 @@ const [color,setColor] = useState('red');
            data={data}
            ></Route>
 
-          <Route component={Shop} path="/shop"></Route>
+          <Route component={Shop} path="/shop" exact></Route>
+          <Route component={Product} path="/shop/:id"></Route>
      </Switch>
            </section>
 </Router>
