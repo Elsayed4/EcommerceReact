@@ -8,7 +8,7 @@ const Navbar = (props) => {
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">
-                            Logo
+                            Elsayed Torky
                         </a>
                         <button
                             className="navbar-toggler"

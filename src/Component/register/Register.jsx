@@ -1,4 +1,5 @@
 import {Formik, Form, Field, FieldArray} from "formik"
+import './Regiter.css'
 import * as yup from "yup"
 import FormField from "../formik-components/FormField"
 const Register = ()=> {
@@ -26,6 +27,7 @@ return (
             formik=> {
                 return(
                     <Form className="container  mt-4">
+                    <div class="formele">
                         <FormField 
                             type="text"
                             name="username"
@@ -87,7 +89,8 @@ return (
                                 }
                             }
                         </FieldArray>
-                    </Form>
+                        </div>
+                        </Form>
                 )
             }
         }

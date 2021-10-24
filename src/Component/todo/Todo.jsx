@@ -36,7 +36,7 @@ function Todo () {
                         <div className="card mb-2" key={index}>
                             <div className="">
                             <h5 >Name: {task.name}</h5>
-                            <hr />
+                            <hr/>
                             <p>description: {task.description}</p>
                             </div>
                             <button onClick={()=>dispatch(removeTodo(index))} className="btn btn-danger">x</button>

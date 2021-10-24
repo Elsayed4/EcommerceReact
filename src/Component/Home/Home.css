@@ -1,0 +1,17 @@
+.Home{
+    margin: 100px 0;
+}
+
+.Home .item2 h2{
+  color: white;
+}
+
+.Home .item2 p{
+  color: white;
+}
+.Home ul li{
+  list-style: none;
+  color: white;
+  margin-top: 12px;
+  font-size: 20px;
+}
