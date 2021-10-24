@@ -21,7 +21,7 @@ const Login = ()=> {
                         <label htmlFor="email" className="d-block">email</label>
                         <input type="email" name="email" id="email" value={formik.values.email} onChange={formik.handleChange} />
                         {
-                            formik.errors.email&& formik.touched&&(
+                            formik.errors.email&& formik.touched.email&&(
                                 <div className="text-danger">
                                     {formik.errors.email}
                                 </div>
@@ -33,7 +33,7 @@ const Login = ()=> {
                         <label htmlFor="password" className="d-block">password</label>
                         <input type="password" name="password" value={formik.values.password} onChange={formik.handleChange} />
                         {
-                            formik.errors.password&& formik.touched&&(
+                            formik.errors.password&& formik.touched.password&&(
                                 <div className="text-danger">
                                     {formik.errors.password}
                                 </div>
