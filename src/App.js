@@ -7,6 +7,7 @@ import { Switch, Route } from "react-router-dom";
 import Product from "./Component/Product/Product.jsx";
 import Login from "./Component/login/Login.jsx";
 import Register from "./Component/register/Register.jsx"
+import Todo from "./Component/todo/Todo.jsx"
 const App = () => {
 
     return (
@@ -22,6 +23,7 @@ const App = () => {
                     <Route component={Shop} path="/shop" exact />
                     <Route component={Product} path="/shop/:id" />
                     <Route component={Login} path="/login" />
+                    <Route component={Todo} path="/todo" />
                     <Route component={Register} path="/register" />
                 </Switch>
             </section>

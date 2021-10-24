@@ -25,13 +25,12 @@ const Navbar = (props) => {
                             className="collapse navbar-collapse"
                             id="navbarSupportedContent"
                         >
-                            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
                                     <Link
                                         to="/"
                                         className="nav-link active"
                                         aria-current="page"
-                                        href="#"
                                     >
                                         Home
                                     </Link>
@@ -40,9 +39,16 @@ const Navbar = (props) => {
                                     <Link
                                         to="shop"
                                         className="nav-link"
-                                        href="#"
                                     >
                                         Shop
+                                    </Link>
+                                </li>
+                                <li className="nav-item">
+                                    <Link
+                                        to="todo"
+                                        className="nav-link"
+                                    >
+                                        Todo
                                     </Link>
                                 </li>
                                 <li className="nav-item">
