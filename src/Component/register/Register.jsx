@@ -59,7 +59,7 @@ return (
                                 )
                             }
                         </div> 
-                        <FieldArray name="hoppies">
+                        <FieldArray nameName="hoppies">
                             {
                                 ({ push, remove})=> {
                                     return(

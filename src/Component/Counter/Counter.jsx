@@ -3,9 +3,7 @@ import Countnumber from "./Countnumber";
 import React, { useState } from "react";
 const Counter = (props) => {
 
-    const [color, setColor] = useState("red");
     const [count, setcount] = useState(1);
-    const [fun, setfun] = useState("");
     const [data, setdata] = useState(true);
     function decrement() {
         setcount(count - 1);

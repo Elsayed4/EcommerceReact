@@ -23,8 +23,8 @@ const fetchproducts = () =>{
     <div className="ShopContent d-flex flex-wrap justify-content-center align-item-center">   
     {products.map(product =>{
        return(
-         <Link to={`/shop/${product.id}`} key={product.id} className="product p-1 w-25 mb-3 me-2 border text-start">
-        <div class="imgContainer">
+         <Link to={`/shop/${product.id}`} key={product.id} className="product p-1 w-25 mb-3 me-2  text-start">
+        <div className="imgContainer">
             <img src={product.image} alt="" class="w-50"></img>
         </div> 
           <h6>{product.title}</h6>

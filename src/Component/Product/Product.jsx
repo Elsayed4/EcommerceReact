@@ -18,7 +18,7 @@ useEffect(()=>{
         <div className="container">
         <div className="row my-5">
           <div className="col-sm-6">
-            <img src={singleProduct.image} className="w-50"/>
+            <img src={singleProduct.image} className="w-50" alt="productImg"/>
           </div>
           <div className="col-sm-6">
             <h3>{singleProduct.title}</h3>

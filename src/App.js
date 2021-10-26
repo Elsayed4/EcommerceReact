@@ -27,8 +27,6 @@ const App = () => {
                     <Route component={Register} path="/register" />
                 </Switch>
             </section>
-        
-        
     );
 };
 
